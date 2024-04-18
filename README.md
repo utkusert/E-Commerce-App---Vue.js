@@ -12,5 +12,12 @@ npm install
 npm run serve
 ```
 
+### Screenshots
+
+```
+You find project`s screenshots in src/assets/screenshots
+```
+
 `Utku Sert`
+
 # E-Commerce-App---Vue.js
