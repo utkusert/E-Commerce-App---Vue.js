@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 import ProductList from "../components/ProductList.vue";
 import ProjectLogin from "../components/ProjectLogin.vue";
 import ProjectRegister from "../components/ProjectRegister.vue";
-import ProjectBasket from "@/components/ProjectBasket.vue";
 import store from "../store/index.js";
 import ProjectMain from "@/components/ProjectMain.vue";
 
@@ -15,7 +14,6 @@ const routes = [
     meta: { requiresAuth: true },
   },
   { path: "/register", component: ProjectRegister },
-  { path: "/basket", component: ProjectBasket },
   { path: "/login", name: "Login", component: ProjectLogin },
 ];
 
